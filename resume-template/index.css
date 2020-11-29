@@ -1,0 +1,144 @@
+* {
+	box-sizing: border-box;
+	margin: none;
+	text-decoration: none;
+	line-height: 1.5em;
+	font-family: 'Roboto', sans-serif;
+	background-color: #F3F3EF;
+}
+
+nav {
+	padding: 1em;
+}
+
+nav, nav img, nav a {
+	margin: none;
+}
+
+nav img, footer img {
+	width: 2.5em;
+	height: 2.5em;
+	padding: .2em;
+	border: 3px solid #A09D7E;
+	border-radius: 100%;
+}
+
+main {
+	width: 60%;
+	margin: auto;
+}
+
+li {
+	font-size: 1.2em;
+}
+
+h1, h2, h3, h4 {
+	font-family: 'Kanit', sans-serif;
+	color: #A09D7E;
+	text-align: center;
+}
+
+textarea {
+	height: 10em;
+	border: 2px solid #A09D7E;
+}
+
+button {
+	color: #00072D;
+	width: 37%;
+	margin: auto;
+	padding: .5em;
+}
+
+footer {
+	text-align: center;
+}
+
+footer a {
+	color: #00072D;
+
+}
+
+button, input[type='submit'] {
+	color: #00072D;
+	font: inherit;
+	size: inherit;
+	background-color: #F3F3EF;
+	border-radius: 1em;
+	border: 3px solid #A09D7E;
+}
+
+.intro h2, h3 {
+	color: #00072D;
+}
+
+.intro p {
+	font-size: 1.5em;
+	line-height: 1.5em;
+}
+
+.intro img {
+	width: 25%;
+	height: 25%;
+	border-radius: 100%;
+	display: block;
+	margin: auto;
+}
+
+.intro, .experience, .projects, .skills, .contact {
+	margin-bottom: 5em;
+}
+
+.experience p {
+	text-align: center;
+}
+
+.experience h3, .experience h4 {
+	color: #00072D;
+}
+
+.edoc, .legalinnovators, .todolist, .animesearch {
+	width: 60%;
+	margin: auto;
+	border: 3px solid #A09D7E;
+	border-radius: 1em;
+	padding: 2em;
+
+}
+
+.edoc, .animesearch {
+	margin-bottom: 2.5em;
+}
+
+.skills .r1 img, .skills .r2 img {
+	width: 150px;
+	height: 150px;
+	margin: 20px;
+	display: inline;
+}
+
+.skills .r1, .skills .r2 {
+	width: 400px;
+	margin: auto;
+}
+
+.skills .r3 {
+	display: block;
+	width: 40%;
+	margin: auto;
+}
+
+.contact input, textarea {
+	display: grid;
+	margin: 1em auto;
+	padding: .5em;
+	width: 60%;
+	border-radius: 1em;
+	border: 2px solid #A09D7E;
+	color: #A09D7E;
+}
+
+.footerimgbox {
+	width: 8em;
+	margin: auto;
+}
